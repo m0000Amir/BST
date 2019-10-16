@@ -6,7 +6,7 @@ Networks with Linear Topology
 Branch And Bound Algorithm For Binary Search Tree
 """
 from collections import deque
-from Table import Table
+from table import Table
 from figure import draw
 from input import placement, gateway_placement, sta
 
