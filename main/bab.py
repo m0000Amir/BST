@@ -6,9 +6,8 @@ Networks with Linear Topology
 Branch And Bound Algorithm For Binary Search Tree
 """
 from collections import deque
-from table import Table
-from figure import draw
-from input import placement, gateway_placement, sta
+from main.table import Table
+from main.input import placement, gateway_placement, sta
 
 import networkx as nx
 import numpy as np
@@ -89,7 +88,7 @@ class BST:
 
     @staticmethod
     def _in_range(place1, place2, communication_distance):
-        """check whether 'first' and 'second' position is in 'range_' """
+        """check whether 'first' and 'second' position is in range """
         return abs(place1 - place2) <= communication_distance
 
     def is_able_exist(self):
